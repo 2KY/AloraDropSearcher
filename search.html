@@ -2,6 +2,7 @@
 	<head>
 		<title>Alora Drop Table Search Tool</title>
 		<link rel='stylesheet' href='style.css'>
+
 	</head>
 
 	<body>
@@ -11,11 +12,17 @@
 				<li><a href='search.html'>Search</a></li>
 			</ul>
 		</div>
-
+		<div class='container'>
 		<input id="searchbar" 
-               onkeyup="search_animal()" 
-               type="text" name="search" 
-               placeholder="Search animals..">
+               onkeyup="search_monster()" 
+               type="text" name="search" size=100% placeholder="Enter monster name...">
+
+        <ul>
+        	<li class='monster'>Kraken</li>
+        	<li class='monster'>Cow</li>
+        </ul>
+        </div>
+        <script src="./script.js"></script>
 	</body>
 
 	<footer>
